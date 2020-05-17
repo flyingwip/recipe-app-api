@@ -71,4 +71,6 @@ class ModelTests(TestCase):
             price=5.00
         )
 
+        # print(recipe.__dict__)
+
         self.assertEqual(str(recipe), recipe.title)
